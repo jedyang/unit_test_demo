@@ -1,0 +1,1 @@
+insert into test(id, name, age) values(2, 'yunsheng', 12);
