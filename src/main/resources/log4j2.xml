@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info" monitorInterval="60">
+	<Appenders>
+		<Console name="CONSOLE" target="SYSTEM_OUT">
+			<PatternLayout>
+				<pattern>[%t][%d{MM-dd HH:mm:ss.SSS}][%c{1}.%M:%L][%p]%x : %m%n</pattern>
+			</PatternLayout>
+		</Console>
+
+		<RollingFile name="ROLLING_FILE" fileName="/tmp/logs/yunsheng-test.log" filePattern="/tmp/logs/yunsheng-test-%d{yyyy-MM-dd}-%i.log">
+			<PatternLayout>
+				<pattern>[%t][%d{yyyy-MM-dd HH:mm:ss.SSS}][%c.%M:%L][%p]%x : %m%n</pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" modulate="true" />
+				<SizeBasedTriggeringPolicy size="100MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="500" />
+		</RollingFile>
+
+		<Async name="ASYNC_APPENDER" errorRef="ROLLING_FILE">
+			<AppenderRef ref="ROLLING_FILE" />
+		</Async>
+	</Appenders>
+
+	<Loggers>
+		<Logger name="com.yunsheng.unit" level="DEBUG" additivity="false">
+			<AppenderRef ref="CONSOLE" />
+		</Logger>
+
+		<Root level="INFO">
+			<AppenderRef ref="CONSOLE" />
+			<AppenderRef ref="ASYNC_APPENDER" />
+		</Root>
+	</Loggers>
+
+</Configuration>

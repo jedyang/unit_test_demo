@@ -12,10 +12,10 @@ import org.springframework.test.context.ActiveProfiles;
 
 /**
  * 选择使用H2数据库还是使用Mysql数据库, 底层使用的是Spring的Profile功能
- * 
+ *
  * 可以通过
- * 
- * @see spring-test-datasource.xml
+ *
+ * @see spring-datasource-test.xml
  * @author yunsheng
  * @since 2016年9月13日 下午7:02:38
  *

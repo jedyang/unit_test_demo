@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<group name="hsf">
+		<property name="cngfc.client.version" defaultValue="1.0.0.daily" />
+		<property name="yunsheng.client.version" defaultValue="1.0.0.daily" />
+	</group>
+	<script>
+		<generate template="application.properties" />
+	</script>
+</config>
