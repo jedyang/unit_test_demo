@@ -1,4 +1,4 @@
-package com.haogrgr.unit.model;
+package com.yunsheng.unit.model;
 
 import java.io.Serializable;
 import java.util.Date;

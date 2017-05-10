@@ -1,4 +1,4 @@
-package com.haogrgr.unit.test.util;
+package com.yunsheng.unit.test.util;
 
 import java.lang.reflect.Method;
 
@@ -12,7 +12,7 @@ import org.springframework.cglib.proxy.MethodProxy;
 /**
  * 外部接口mock类, 方便测试
  * 
- * @author tudesheng
+ * @author yunsheng
  * @since 2016年6月27日 上午11:21:08
  *
  */

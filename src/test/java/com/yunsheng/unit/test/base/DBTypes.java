@@ -1,9 +1,9 @@
-package com.haogrgr.unit.test.base;
+package com.yunsheng.unit.test.base;
 
 /**
  * 数据库类型, 对应spring-test-datasource.xml中配置的profile名
  * 
- * @author tudesheng
+ * @author yunsheng
  * @since 2016年9月13日 下午8:43:39
  *
  */

@@ -1,14 +1,14 @@
-package com.haogrgr.unit.hsf.provider;
+package com.yunsheng.unit.hsf.provider;
 
 import java.util.Objects;
 
 import javax.annotation.Resource;
 
-import com.haogrgr.unit.hsf.client.TestDTO;
-import com.haogrgr.unit.hsf.client.TestHsfService;
-import com.haogrgr.unit.model.TestModel;
-import com.haogrgr.unit.service.TestServiceImpl;
-import com.haogrgr.unit.util.BeanCopyHelper;
+import com.yunsheng.unit.hsf.client.TestDTO;
+import com.yunsheng.unit.hsf.client.TestHsfService;
+import com.yunsheng.unit.model.TestModel;
+import com.yunsheng.unit.service.TestServiceImpl;
+import com.yunsheng.unit.util.BeanCopyHelper;
 
 @Resource
 public class TestHsfServiceImpl implements TestHsfService {

@@ -1,4 +1,4 @@
-package com.haogrgr.unit.service;
+package com.yunsheng.unit.service;
 
 import java.util.List;
 import java.util.Objects;
@@ -8,8 +8,8 @@ import javax.annotation.Resource;
 import com.cainiao.cngfc.client.ProductReadService;
 import com.cainiao.cngfc.common.dto.GFCResultDTO;
 import com.cainiao.cngfc.common.dto.ProductDTO;
-import com.haogrgr.unit.dao.TestMapper;
-import com.haogrgr.unit.model.TestModel;
+import com.yunsheng.unit.dao.TestMapper;
+import com.yunsheng.unit.model.TestModel;
 import org.springframework.stereotype.Service;
 
 @Service

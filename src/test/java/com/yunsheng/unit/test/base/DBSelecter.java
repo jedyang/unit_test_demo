@@ -1,4 +1,4 @@
-package com.haogrgr.unit.test.base;
+package com.yunsheng.unit.test.base;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -16,7 +16,7 @@ import org.springframework.test.context.ActiveProfiles;
  * 可以通过
  * 
  * @see spring-test-datasource.xml
- * @author tudesheng
+ * @author yunsheng
  * @since 2016年9月13日 下午7:02:38
  *
  */

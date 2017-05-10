@@ -1,4 +1,4 @@
-package com.haogrgr.unit.test.base;
+package com.yunsheng.unit.test.base;
 
 import org.junit.Rule;
 import org.junit.runner.RunWith;
@@ -10,7 +10,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 /**
  * 支付模块的测试基类
  * 
- * @author tudesheng
+ * @author yunsheng
  * @since 2016年6月29日 下午8:34:37
  *
  */

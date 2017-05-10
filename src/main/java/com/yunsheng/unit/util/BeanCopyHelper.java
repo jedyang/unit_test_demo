@@ -1,4 +1,4 @@
-package com.haogrgr.unit.util;
+package com.yunsheng.unit.util;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -9,7 +9,7 @@ import org.springframework.beans.BeanUtils;
 /**
  * bean copy 方便
  * 
- * @author tudesheng
+ * @author yunsheng
  * @since 2016年5月1日 下午2:23:20
  *
  */
@@ -63,7 +63,7 @@ public class BeanCopyHelper {
     /**
      * Bean拷贝异常
      * 
-     * @author tudesheng
+     * @author yunsheng
      * @since 2016年5月1日 下午2:31:57
      *
      */

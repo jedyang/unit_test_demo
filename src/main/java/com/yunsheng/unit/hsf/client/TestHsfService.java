@@ -1,4 +1,4 @@
-package com.haogrgr.unit.hsf.client;
+package com.yunsheng.unit.hsf.client;
 
 public interface TestHsfService {
 
